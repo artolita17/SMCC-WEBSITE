@@ -15,33 +15,41 @@
 
 <body>
 
-        <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/smcc-logo.png" alt="Logo" height="30" class="d-inline-block align-top">
+                <h3>SMCC</h3>
+            </a>
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                                <div class="nav">
-                                    <div class="logo">
-                                        <img src="images/smcc-logo.png" alt="smcc logo" class="smcclogo">
-                                        <h2>SMCC</h2>
-                                    </div>
-                                   
-                                    <a href="#" class="toggle-btn">
-                                        <span class="bar"></span>
-                                        <span class="bar"></span>
-                                        <span class="bar"></span>
-                                    </a>
-                                    <div class="links">
-                                        <ul>
-                                            <li><a href="#home">Home</a></li>
-                                            <li><a href="#about">About</a></li>
-                                            <li><a href="#courses">Courses Offered</a></li>
-                                            <li><a href="#services">Services</a></li>
-                                            <li><a href="#contact">Contact Us</a></li>
-                                        </ul>
-                                    </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto just">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses Offered</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-                                </div>
-                           
-                    </div>
+       
+                              
 
                     <div class="main">
                         <h1>
@@ -49,19 +57,11 @@
                         </h1>
                 </div>
           
-        </div>
+    
 
         
          
 
-        <script type="text/javascript">
-            const toggleBtn = document.querySelector(".toggle-btn");
-            const links = document.querySelector(".links");
-            toggleBtn.addEventListener("click", () => {
-                links.classList.toggle("active");
-            });
-        </script>
-                  
 
      
           
