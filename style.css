@@ -55,6 +55,19 @@ h2{
     background-color: rgba(147, 141, 241, 0.178);
     border-radius: 5px;
 }
+.card-basic{
+    background-color: rgb(14, 0, 68);
+    color: white;
+    padding: 5px;
+   border-radius: 5px;
+}
+.card-shs{
+    box-shadow: 5px 0px 30px gray;
+    background-color: rgba(32, 31, 31, 0.271);
+    color: rgb(43, 41, 41);
+    padding: 5px;
+    border-radius: 5px;
+}
 .course{
     text-align: center;
     margin: 20px;
@@ -70,7 +83,6 @@ h5,h2.h1,p,li{
     padding: 10px;
     justify-content: center;
 }
-
 
 .card-ccis{
     box-shadow: 5px 0px 30px green;
@@ -93,6 +105,20 @@ h5,h2.h1,p,li{
    max-width: 100%;
    max-height: 100%;
 }
+.card-ccje{
+    box-shadow: 5px 0px 30px rgb(71, 6, 6);
+    background-color: rgba(68, 1, 1, 0.271);
+    border-radius: 5px;
+   max-width: 100%;
+   max-height: 100%;
+}
+.card-cte, .card-cas{
+    box-shadow: 5px 0px 30px rgb(54, 57, 255);
+    background-color: rgba(59, 59, 255, 0.271);
+    border-radius: 5px;
+   max-width: 100%;
+   max-height: 100%;
+}
 .card-icon img{
     height: 100px;
     margin: 10px;
@@ -101,8 +127,59 @@ h5,h2.h1,p,li{
     text-align: left;
      padding-left: 10px;
 }
-.card-cthm a, .card-ccis a, .card-cbm a{
+.card-cthm a{
+    color: rgb(255, 0, 111);
     padding-left: 10px;
      text-decoration: none;
-   
+}
+.card-ccis a{
+    color: green;
+    padding-left: 10px;
+     text-decoration: none;
+}
+.card-cbm a{
+    color: rgb(208, 180, 0);
+    padding-left: 10px;
+    text-decoration: none; 
+}
+.card-ccje a{
+    color: maroon;
+    padding-left: 10px;
+    text-decoration: none; 
+}
+.card-cte a, .card-cas a{
+    color: rgb(0, 0, 140);
+    padding-left: 10px;
+    text-decoration: none; 
+
+}
+.card-cthm a:hover{
+    background-color: rgb(204, 88, 107);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-ccis a:hover{
+    background-color: rgb(88, 204, 115);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-cbm a:hover{
+    background-color: rgb(204, 204, 88);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-ccje a:hover{
+    background-color: rgb(124, 13, 13);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-cte a:hover{
+    background-color: rgb(10, 4, 134);
+    border-radius: 5px 15px 5px;
+   color: white;
+}
+.card-cas a:hover{
+    background-color: rgb(10, 4, 134);
+    border-radius: 5px 15px 5px;
+   color: white;
 }
