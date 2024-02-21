@@ -231,7 +231,12 @@ h5,h2.h1,p,li{
     color: white;
     padding: 5px;
    border-radius: 5px;
-}   
+}  
+.card-contact{
+    background-color: rgba(135, 206, 250, 0.29);
+    padding: 10px;
+    border-radius: 5px;
+} 
 footer{
     text-align: center;
 }
