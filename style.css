@@ -25,13 +25,17 @@ body{
 }
 .nav-link:hover{
     background-color: rgba(9, 9, 92, 0.823);
-    color: yellow;
+    color: rgb(255, 238, 0);
     border-radius: 5px 20px;
+}
+.vmgo, .vmgo li{
+    text-align: justify;
 }
 .smcc{
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+
+}
+.link{
     padding-top: 20rem;
     padding-bottom: 20rem;
 }
@@ -41,6 +45,18 @@ body{
     max-height: 100%;
     color: rgba(9, 9, 92, 0.823);
 }
+.smcclink{
+text-decoration: none;  
+color: rgba(9, 9, 92, 0.823);
+margin: 20px;
+padding: 20px;
+padding-top: 20rem;
+padding-bottom: 20rem;
+}
+.smcclink:hover{
+    color: rgb(255, 238, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 52, 0.619);
+}
 .main{  
     padding: 20px;
 }
@@ -48,10 +64,10 @@ h2{
     text-align: center;
     
 }
-.vision, .mission, .goal, .objectives, .kinder, .elementary, .jhs, .academic,.tvl,.colleges {
+.vision, .mission, .goal, .objectives{
     text-align: justify;
 }
-.vmgo, .kinder, .elementary, .jhs, .academic,.tvl,.colleges{
+.vmgo{
     background-color: rgba(147, 141, 241, 0.178);
     border-radius: 5px;
 }
@@ -62,9 +78,10 @@ h2{
    border-radius: 5px;
 }
 .card-shs{
-    box-shadow: 5px 0px 30px gray;
-    background-color: rgba(32, 31, 31, 0.271);
-    color: rgb(43, 41, 41);
+   /* box-shadow: 5px 0px 30px gray;*/
+   background-color: rgba(32, 31, 31, 0.271); 
+  /* background-color: rgb(14, 0, 68); */
+   color: rgb(43, 41, 41); 
     padding: 5px;
     border-radius: 5px;
 }
@@ -77,47 +94,61 @@ h2{
 }
 h3{
     text-align: center;
-
+    text-shadow: 1px 0px 2px rgb(132, 132, 148);
 }
 h5,h2.h1,p,li{
     padding: 10px;
-    justify-content: center;
+    text-align: center;
+   
 }
-
+.department{
+    text-align: center;
+ padding-top: 20rem;
+ padding-bottom: 20rem;
+}
+.courses-container p{
+    text-align: left;
+}
 .card-ccis{
-    box-shadow: 5px 0px 30px green;
+    /*box-shadow: 5px 0px 50px green; */
     background-color: rgba(22, 193, 56, 0.271);
     border-radius: 5px;
    max-width: 100%;
    max-height: 100%;
+   color: green;
 }
 .card-cthm{
-    box-shadow: 5px 0px 30px rgb(250, 0, 42);
+    /*box-shadow: 5px 0px 30px rgb(250, 0, 42);*/
     background-color: rgba(200, 56, 80, 0.271);
     border-radius: 5px;
     max-width: 100%;
    max-height: 100%;
+   color: rgb(255, 0, 111);
 }
 .card-cbm{
-    box-shadow: 5px 0px 30px rgb(244, 223, 63);
+   /* box-shadow: 5px 0px 30px rgb(244, 223, 63);*/
     background-color: rgba(244, 244, 82, 0.271);
     border-radius: 5px;
    max-width: 100%;
    max-height: 100%;
+   color: rgb(124, 108, 3);
 }
 .card-ccje{
-    box-shadow: 5px 0px 30px rgb(71, 6, 6);
+   /* box-shadow: 5px 0px 30px rgb(71, 6, 6); */
     background-color: rgba(68, 1, 1, 0.271);
     border-radius: 5px;
    max-width: 100%;
    max-height: 100%;
+   color: maroon;
+   
 }
 .card-cte, .card-cas{
-    box-shadow: 5px 0px 30px rgb(54, 57, 255);
+    /*box-shadow: 5px 0px 30px rgb(54, 57, 255);*/
     background-color: rgba(59, 59, 255, 0.271);
     border-radius: 5px;
    max-width: 100%;
    max-height: 100%;
+   color: rgb(0, 0, 140);
 }
 .card-icon img{
     height: 100px;
@@ -138,7 +169,7 @@ h5,h2.h1,p,li{
      text-decoration: none;
 }
 .card-cbm a{
-    color: rgb(208, 180, 0);
+    color: rgb(124, 108, 3);
     padding-left: 10px;
     text-decoration: none; 
 }
@@ -182,4 +213,25 @@ h5,h2.h1,p,li{
     background-color: rgb(10, 4, 134);
     border-radius: 5px 15px 5px;
    color: white;
+}
+
+.service-offer{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.card li, .card h3{
+    text-align: center;
+ 
+}
+.card{
+    background-color: rgb(14, 0, 68);
+    color: white;
+    padding: 5px;
+   border-radius: 5px;
+}   
+footer{
+    text-align: center;
 }
